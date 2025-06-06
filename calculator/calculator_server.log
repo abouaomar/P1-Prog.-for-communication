@@ -1,0 +1,24 @@
+2025-06-06 13:04:32,682 - INFO - Calculator server initialized on localhost:8080
+2025-06-06 13:04:32,685 - INFO - Server listening on localhost:8080
+2025-06-06 13:04:40,502 - INFO - Client connected from ('127.0.0.1', 61025)
+2025-06-06 13:04:40,514 - INFO - Received from ('127.0.0.1', 61025): GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-CA,en-US;q=0.7,en;q=0.3
+Accept-Encoding: gzip, deflate, br, zstd
+Connection: keep-alive
+Cookie: ajs_anonymous_id=5397abed-7019-41a4-b785-2475f2ebe20b; pma_lang=en; pmaUser-1=IJZuz8OQdRSuIWCbMm51%2B%2BN6j5N5Kyc9gEH30ZG6hSjtH26J5LEICGlRMU4%3D
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+2025-06-06 13:04:40,515 - INFO - Sending to ('127.0.0.1', 61025): INVALID Invalid operand: '/' is not a number
+2025-06-06 13:04:45,470 - INFO - Client ('127.0.0.1', 61025) disconnected
+2025-06-06 13:04:53,233 - INFO - Client connected from ('127.0.0.1', 61030)
+2025-06-06 13:04:57,679 - INFO - Received from ('127.0.0.1', 61030): ADD 1 2
+2025-06-06 13:04:57,679 - INFO - Sending to ('127.0.0.1', 61030): OK 3
+2025-06-06 13:05:02,477 - INFO - Received from ('127.0.0.1', 61030): ADD 1 22
+2025-06-06 13:05:02,478 - INFO - Sending to ('127.0.0.1', 61030): OK 23

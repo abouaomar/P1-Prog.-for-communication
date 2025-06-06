@@ -1,0 +1,64 @@
+Project: Build a Network Calculator from Scratch
+Create a client-server calculator system that performs mathematical operations over the network.
+Step 1: Protocol Design
+Design a simple text-based protocol called CalcProtocol/1.0:
+Request Format:
+OPERATION operand1 operand2
+Response Format:
+STATUS result
+Operations: ADD, SUB, MUL, DIV, POW, SQRT
+Status Codes: OK, ERROR, INVALID
+Examples:
+Client: ADD 5 3
+Server: OK 8
+
+Client: DIV 10 0
+Server: ERROR Division by zero
+
+Client: SQRT 16
+Server: OK 4
+Step 2: Server Implementation
+Version 1: Single-threaded calculator server
+
+Accept one client at a time
+Parse mathematical expressions
+Return results or error messages
+
+Version 2: Multi-threaded calculator server
+
+Handle multiple clients simultaneously
+Thread-safe operation logging
+Connection management
+
+Step 3: Client Implementation
+Create clients in:
+
+Python: Interactive calculator client
+JavaScript: Simple calculator interface
+Java: Command-line calculator client
+
+Step 4: Error Handling
+Handle:
+
+Protocol errors: Invalid operations, malformed requests
+Math errors: Division by zero, invalid operands
+Network errors: Connection timeouts, server unavailable
+Input validation: Non-numeric inputs, missing operands
+
+Learning Goals:
+
+Understand basic client-server communication
+Practice socket programming fundamentals
+Learn protocol design principles
+Implement error handling strategies
+Experience multi-threaded programming
+
+Deliverables:
+
+Protocol specification document
+Working server (both versions)
+Three different language clients
+Error handling demonstrations
+Testing script with various scenarios
+
+This simplified project teaches the same networking concepts as the web server but focuses on mathematical operations instead of HTTP complexity.
